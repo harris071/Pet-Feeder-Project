@@ -1,0 +1,14 @@
+ **Start**
+ **Check current time**
+ **Is it feeding time?**
+   - No → Go back to step 2
+   - Yes → Continue
+ **Check food bin level**
+ **Activate servo motor to dispense food**
+ **Log feeding time**
+ **Check bowl weight**
+ **Has weight changed?**
+   - No → Alert: "Food not eaten"
+   - Yes → Log: "Food eaten"
+ **End**
+
