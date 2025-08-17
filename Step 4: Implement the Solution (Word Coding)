@@ -1,0 +1,18 @@
+Start System
+ Check current time
+ IF time =feeding time THEN
+ Check food bin level and weight
+ IF food bin is empty THEN
+ Activate servo motor to dispense food
+ Log feeding time
+ Wait 10 minutes
+ Check bowl weight
+ IF food is not eaten THEN
+ Send alert to staff
+ ELSE
+ Log successful feeding
+ ELSE
+ Send alert: "Food bin empty"
+ ELSE
+ Wait until next scheduled time
+ Repeat
