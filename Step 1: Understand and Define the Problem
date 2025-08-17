@@ -1,0 +1,32 @@
+Step 1: Understand and Define the Problem (Analysis) 
+Problem Statement:
+The goal of this project is to design a low cost, programmable automated pet feeder for a local animal shelter that: 
+•	Dispenses food for dogs and cats at scheduled time 
+•	Monitor whether the food has been consumed or the amount of food that has been consumed
+•	Alert staff if there is an issue 
+
+Assumptions or limitations:
+•	One type of pet food for both cats and dogs
+•	Limited memory 
+•	Shelter has Wi-Fi access 
+•	Pets eat within 10 minutes of food being dispensed 
+
+Inputs and Outputs: 
+Inputs	              Outputs
+Feeding Schedule 	   Servo Motor Activation
+Bowl Weight Sensor 	 Alert Messages
+Food level Sensor 	 Feeding Log
+Type of Food	       LED/Buzzer notification
+
+
+
+Block Diagram
+[RTC Module]        [Food Bin Sensor]
+      |                       |
+      v                       v
+   [Controller] ----> [Motor & Dispenser]
+      |                       |
+      v                       v
+ [Bowl Weight Sensor]    [Alert System]
+ 
+
