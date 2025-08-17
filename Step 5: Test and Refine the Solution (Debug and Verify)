@@ -1,0 +1,12 @@
+Scenario	             Input Values 	                              Expected Output
+Pet eats as expected 	Feeding Time, bin full, weight drops 	        Log “Food eaten”
+Pet does not eat    	Feeding time, bin full, no weight drops 	    Alert “Pet did not eat”
+Food bin empty 	      Feeding time, bin empty	                      Alert “Refill food bin”
+Servo Fails	          Feeding time, bin empty, no change in weight	Alert “Servo failed”
+Early Check	          Not feeding time	                            No Action
+
+Suggested Improvements: 
+•	Add retry mechanism for servo.
+•	Add camera for visual confirmation.
+•	Add mobile app integration.
+•	Add backup battery for power outage resilience.
