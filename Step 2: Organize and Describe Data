@@ -1,0 +1,12 @@
+Input Type 
+Input Type	               Description	         Sample Values	   Constraints
+RTC (Real-Time Clock)	     Tracks current time	 08:00, 18:00	     24-hour format
+Load Cell	                 Measures bowl weight	 0g to 500g	       ±5g accuracy
+Food Level Sensor	         Checks food bin	     Full/Low/Empty	   Binary or analog
+RTC (Real-Time Clock)	     Tracks current time	 08:00, 18:00	     24-hour format
+
+Output Type 
+Output Type	     Description	     Sample Values
+Servo Motor	     Dispenses food	   Rotate 90°
+Alert System	   Notifies staff	   “Food not eaten”, “Bin empty”
+LED/Buzzer	     Local alert	     On/Off
